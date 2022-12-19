@@ -11,6 +11,10 @@ body {
 }
 
 header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-color: white;
     padding: 10px 0;
     box-shadow: 0 10px 20px #8080803b;
 }
@@ -43,11 +47,12 @@ nav ul li a {
 }
 
 .banner {
-    padding: 50px;
+    padding: 130px 0 20px 0;
+    text-align: center;
+
 }
 
 .banner h1 {
-    text-align: center;
     font-size: 60px;
     color: #3b506c;
 }
@@ -108,4 +113,96 @@ nav ul li a {
 .feature p {
     font-size: 18px;
     color: #3b506c;
+}
+
+.blog-section {
+    margin-bottom: 50px;
+}
+
+.col {
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+.blog {
+    padding: 20px;
+    border-radius: 2px;
+    height: 350px;
+}
+
+.blog img {
+    max-width: 100%;
+    height: 200px;
+}
+
+.blog h3 {
+    color: #3b506c;
+    font-size: 20px;
+}
+
+.blog p {
+    color: #3b506c;
+    font-size: 15px;
+}
+
+.red {
+    background-color: rgb(251 201 201);
+}
+
+.green {
+    background-color: rgb(194 248 194 / 56%);
+}
+
+.yellow {
+    background-color: rgb(248 248 187 / 69%);
+}
+
+.blue {
+    background-color: rgb(171, 171, 253);
+}
+
+/*Footer Section*/
+.wrapf {
+    width: 1480px;
+    margin: auto;
+    overflow: hidden;
+    background-color: rgba(218, 216, 216, 0.644);
+
+}
+
+.colF {
+    width: 25%;
+    height: 550px;
+    float: left;
+    box-sizing: border-box;
+    padding: 12px;
+
+}
+
+
+.blogF {
+    padding: 20px;
+    border-radius: 2px;
+    height: 500px;
+
+}
+
+.blogF ul {
+    list-style: none;
+}
+
+.blogF ul li {
+    padding: 0;
+    margin: 5px 0;
+}
+
+.blogF ul li a {
+    color: #3b506c;
+}
+
+.blogF ul li h3 {
+    color: #3b506c;
+
 }
